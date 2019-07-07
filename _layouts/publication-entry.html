@@ -1,0 +1,3 @@
+<h2 class="pub-title"><a href="{{ details }}">{{ entry.title }}</a></h2>
+{% include publication-authors.html authors=entry.author_array %}
+<p class="pub-venue">{% include publication-venue.html entry=entry %}</p>

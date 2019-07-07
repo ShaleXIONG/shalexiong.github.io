@@ -1,0 +1,18 @@
+{% assign post = include.post %}
+<li style="list-style:none">
+  {% if post.keywords.size > 0 %}
+  <div class="readlist-label">
+      <ul>
+          {% for keyword in post.keywords %}
+          <li><a href="">{{ keyword }}</a></li>
+          {% endfor %}
+      </ul>
+  </div>
+  {% endif %}
+  <h3>
+      <a style="color:black" href="{{ post.url | prepend:site.baseurl }}">
+      <span>{{ post.title }}</span>
+      <small><time datetime="{{ post.date | date_to_xmlschema }}"> {{ post.date | date: include.format }}</time></small>
+      </a>
+  </h3>
+</li>
