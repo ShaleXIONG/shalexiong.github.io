@@ -1,0 +1,8 @@
+@inproceedings{Shale-2017ESOP,
+  title = {Abstract Specifications for Concurrent Maps},
+  author = {Xiong, Shale and {da Rocha Pinto}, Pedro and Ntzik, Gian and Gardner, Philippa},
+  booktitle = {Proceedings of the 26\textsuperscript{th} European Symposium on Programming ({ESOP})},
+  year = {2017},
+  month = apr,
+  abstract = {Despite recent advances in reasoning about concurrent data structure libraries, the largest implementations in java.util.concurrent have yet to be verified. The key issue lies in the development of modular specifications, which provide clear logical boundaries between clients and implementations. A solution is to use recent advances in fine-grained concurrency reasoning, in particular the introduction of abstract atomicity to concurrent separation logic reasoning. We present two specifications of concurrent maps, both providing the clear boundaries we seek. We show that these specifications are equivalent, in that they can be built from each other. We show how we can verify client programs, such as a concurrent set and a producer-consumer client. We also give a substantial first proof that the main operations of ConcurrentSkipListMap in java.util.concurrent satisfy the map specification. This work demonstrates that we now have the technology to verify the largest implementations in java.util.concurrent.}
+}
