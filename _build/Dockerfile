@@ -13,5 +13,5 @@ VOLUME /workspace
 
 FROM gcr.io/cloud-builders/gsutil
 
-RUN gsutil cp -R workspace/_site/** gs://www.shalexiong.com
+RUN gsutil cp -R workspace/_site/* gs://www.shalexiong.com
 
