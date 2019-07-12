@@ -1,4 +1,4 @@
-FROM jekyll/jekyll
+FROM jekyll/jekyll as website
 
 #set up 
 WORKDIR /workspace
@@ -9,9 +9,9 @@ RUN chown -R jekyll /workspace
 # run build
 RUN jekyll build
 
-VOLUME /workspace
-
 FROM gcr.io/cloud-builders/gsutil
+
+COPY --from=website /workspace .
 
 RUN gsutil cp -R workspace/_site/* gs://www.shalexiong.com
 
