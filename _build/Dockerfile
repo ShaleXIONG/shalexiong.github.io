@@ -13,7 +13,7 @@ FROM gcr.io/cloud-builders/gsutil
 
 WORKDIR /workspace
 
-COPY --from=website /workspace/_ste /workspace
+COPY --from=website /workspace /workspace
 
 RUN gsutil cp -R workspace/_site/* gs://www.shalexiong.com
 
