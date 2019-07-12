@@ -8,3 +8,7 @@ RUN chown -R jekyll /workspace
 
 # run build
 RUN jekyll build
+
+FROM gcr.io/cloud-builders/gsutil
+
+RUN gsutil cp -R workspace/_site/** gs://www.shalexiong.com
