@@ -1,0 +1,3 @@
+steps:
+    - name: 'eu.gcr.io/personal-website-226122/jekyll'
+      args: ['jekyll', 'build']
