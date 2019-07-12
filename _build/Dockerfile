@@ -11,7 +11,9 @@ RUN jekyll build
 
 FROM gcr.io/cloud-builders/gsutil
 
-COPY --from=website /workspace .
+WORKDIR /workspace
+
+COPY --from=website /workspace/_ste /workspace
 
 RUN gsutil cp -R workspace/_site/* gs://www.shalexiong.com
 
