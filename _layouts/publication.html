@@ -1,12 +1,18 @@
 ---
-layout: default
-# The display of the Source Materials Section can be configured in _data/publication_file_types.yml
+layout: base
 title: Publications
 ---
-<article class="page" role="article">
-  <h1 class="page-title">Publications</h1>
-  <hr/>
-  <h2>{{ page.title }}</h2>
+
+
+{% include header.html type="" %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+{% comment %} Publication typesetting {% endcomment %}
+
+<article class="blog-post" role="publication">
   {% if page.entry.doi or page.links.size > 0 %}
   <h5>Source Materials</h5>
   <ul class="fa-ul">
@@ -23,16 +29,17 @@ title: Publications
     {% assign known_types = types | map: "ext" %}
     {% for link in page.links %}
     {% unless known_types contains link[0] %}
-    <li><a href="{{ link[1] }}">{{ link[0] }} File</a></li>
+    <li><a href="{{ link[1] }}">{{ link[0] }}</a></li>
     {% endunless %}
     {% endfor %}
     {% if page.entry.doi %}<li><a href="http://dx.doi.org/{{ page.entry.doi }}"></i>Published Edition</a></li>{% endif %}
   </ul>
   {% endif %}
-  <h5>Venue</h5>
-  <p>{% include publication-venue.html entry=page.entry %}</p>
-  <h5>Publication Year</h5>
-  <p>{{ page.entry.year }}</p>
+  <h5 style="display: inline;">Venue: </h5>
+  <p style="display: inline;">{% include publication-venue.html entry=page.entry %}</p>
+  <br>
+  <h5 style="display: inline;">Publication Year: </h5>
+  <p style="display: inline;">{{ page.entry.year }}</p>
   {% if page.entry.keywords %}<h5>Keywords</h5>
   <p>{{ page.entry.keywords }}</p>{% endif %}
   {% if page.entry.doi or page.entry.isbn %}<h5>Identifiers</h5>
@@ -40,14 +47,20 @@ title: Publications
     {% if page.entry.doi %}<li>DOI: <a href="http://dx.doi.org/{{ page.entry.doi }}">doi:{{ page.entry.doi }}</a></li>{% endif %}
     {% if page.entry.isbn %}<li>ISBN: {{ page.entry.isbn }}</li>{% endif %}
   </ul>{% endif %}
-  <h5>Authors</h5>
+  <h5 >Authors</h5>
   {% include publication-authors.html authors=page.entry.author_array %}
   {% if page.entry.abstract %}
   <h5>Abstract</h5>
-  <p>{{ page.entry.abstract }}</p>
+  {{ page.entry.abstract }}
   {% endif %}
-
-
   <h5>Export Citation</h5>
-  <textarea readonly rows="10" class="bib-text">{{ page.entry.bibtex }}</textarea>
+  <textarea readonly rows="20" class="bib-text">{{ page.entry.bibtex }}</textarea>
 </article>
+
+{% comment %} END OF Publication typesetting {% endcomment %}
+    </div>
+  </div>
+</div>
+
+
+

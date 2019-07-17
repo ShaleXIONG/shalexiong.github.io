@@ -1,8 +1,0 @@
----
-layout: page
-tag: publications
-title: Publications
-permalink: /publications/
-redirect_from: /publications.html
----
-{% bibliography -g year %}

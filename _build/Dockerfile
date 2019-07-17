@@ -12,9 +12,7 @@ RUN jekyll build
 FROM gcr.io/cloud-builders/gsutil
 
 WORKDIR /workspace
-
 COPY --from=website /workspace/. /workspace
-
 COPY ./_build/deploy-key.json /workspace
 
 RUN gcloud auth activate-service-account --key-file=deploy-key.json

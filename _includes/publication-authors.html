@@ -1,5 +1,4 @@
-<ul class="author-list">
-{% for author in include.authors %}
-<li class="author">{{ author.first }} {{ author.last }}</li>
+<ul>{% for author in include.authors %}
+{{ author.first }} {{ author.last }} &nbsp;
 {% endfor %}
 </ul>

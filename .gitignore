@@ -1,6 +1,9 @@
+# project
 _site
 .sass-cache
-.jekyll-metadata
-vendor
-.bundle/config
-.lock
+.vagrant
+
+# general
+.DS_Store
+Thumbs.db
+ehthumbs.db

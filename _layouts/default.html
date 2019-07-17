@@ -1,21 +1,9 @@
 ---
-layout: compress
+layout: base
 ---
 
-<!DOCTYPE html>
-<html lang="en">
+<div class="intro-header"></div>
 
-  {% include head.html %}
-
-  <body>
-    {% include menu.html %}
-
-    <main class="content container" role="main">
-      {{ content }}
-    </main>
-
-    {% include sidebar.html %}
-
-    {% include scripts.html %}
-  </body>
-</html>
+<div role="main" class="container">
+  {{ content }}
+</div>

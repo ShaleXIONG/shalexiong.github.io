@@ -1,94 +1,133 @@
-{% assign color = site.color %}
-{% assign image = site.image %}
-
-{% if page.tag %}
-  {% assign tag = site.data.tags[page.tag] %}
-  {% if tag.color %}{% assign color = tag.color %}{% endif %}
-  {% if tag.image %}{% assign image = tag.image %}{% endif %}
-{% else %}
-  {% if page.tags.size > 0 %}
-    {% assign tag_name = page.tags[0] %}
-    {% assign tag = site.data.tags[tag_name] %}
-    {% if tag.color %}{% assign color = tag.color %}{% endif %}
-    {% if tag.image %}{% assign image = tag.image %}{% endif %}
-  {% endif %}
-{% endif %}
-
-{% if page.color %}{% assign color = page.color %}{% endif %}
-{% if page.image %}{% assign image = page.image %}{% endif %}
-
 <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+  <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <meta name="author" content="{{ site.author.name }}" />
+
+  {% if page.subtitle %}
+  <meta name="description" content="{{ page.subtitle }}">
+  {% endif %}
+
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ '/feed.xml' | absolute_url }}" />
+
   <link rel="shortcut icon" href="{{site.icon}}" type="image/x-icon" />
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  <title>{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{% if page.tag %}{{ site.data.tags[page.tag].name }}{% else %}{{ page.title }}{% endif %} &middot; {{ site.title }}{% endif %}</title>
-  {% if page.description %}
-  {% capture desc %}{{ page.description }}{:.message}{% endcapture %}
-  <meta name="description" content="{{ desc | markdownify | strip_html | truncatewords: 50 }}">
-  {% else %}{% if page.excerpt %}
-  <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 50 }}">
-  {% endif %}{% endif %}
+  {% include gtag.html %}
+  {% include gtm_head.html %}
+  {% include google_analytics.html %}
 
-  <!--[if gt IE 8]><!---->
-  <style>
-    {% capture include_to_scssify %}
-    {% include styles/essentials.scss %}
-    {% endcapture %}
-    {{ include_to_scssify | scssify }}
-  </style>
+  {% if layout.common-ext-css %}
+    {% for css in layout.common-ext-css %}
+      {% include ext-css.html css=css %}
+    {% endfor %}
+  {% endif %}
 
-  <noscript>
-    <link rel="stylesheet" href="{{ site.baseurl }}/sources/css/non-essentials.css">
+  {% if layout.common-css %}
+    {% for css in layout.common-css %}
+      <link rel="stylesheet" href="{{ css | relative_url }}" />
+    {% endfor %}
+  {% endif %}
 
-    {% if site.load_google_fonts %}
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ site.load_google_fonts }}">
-    {% endif %}
+  {% if layout.common-googlefonts %}
+    {% for font in layout.common-googlefonts %}
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
+    {% endfor %}
+  {% endif %}
 
-    {% if site.author.social %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/sources/css/icons.css">
-    {% endif %}
-  </noscript>
+  {% if page.ext-css %}
+    {% for css in page.ext-css %}
+      {% include ext-css.html css=css %}
+    {% endfor %}
+  {% endif %}
 
-  <link rel="preload" href="{{ site.baseurl }}/sources/css/non-essentials.css" as="style" onload="this.rel='stylesheet'">
+  {% if page.css %}
+    {% for css in page.css %}
+      <link rel="stylesheet" href="{{ css | relative_url }}" />
+    {% endfor %}
+  {% endif %}
 
-  <style>
-    html {
-      font-family: {{ site.font }};
-    }
-    :focus {
-      outline-color: {{ color }};
-    }
-    .font-accent {
-      font-family: {{ site.font_accent }};
-    }
-    .content a,
-    .related-posts li a:hover {
-      color: {{ color }};
-    }
-    ::selection {
-      color: #fff;
-      background: {{ color }};
-    }
-    ::-moz-selection {
-      color: #fff;
-      background: {{ color }};
-    }
-    {% if image %}
-    .sidebar {
-      background-image: url('{{ image }}');
-    }
-    {% endif %}
-  </style>
-  <!--<![endif]-->
+  {% if page.googlefonts %}
+    {% for font in page.googlefonts %}
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
+    {% endfor %}
+  {% endif %}
 
-  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }} Atom Feed" href="{{ site.baseurl }}/atom.xml">
+    <!-- Facebook OpenGraph tags -->
+  {% if site.fb_app_id %}
+  <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
+  {% endif %}
 
-  <script>{% include scripts/load-js-deferred.min.js %}</script>
+  {% if page.meta-title %}
+  <meta property="og:title" content="{{ page.meta-title }}" />
+  {% elsif page.title %}
+  <meta property="og:title" content="{{ page.title }}" />
+  {% else %}
+  <meta property="og:title" content="{{ site.title }}" />
+  {% endif %}
 
-  <!--[if lt IE 9]>
-  <script src="https://unpkg.com/html5shiv/dist/html5shiv.min.js"></script>
-  <![endif]-->
+   {% if page.meta-description %}
+  <meta property="og:description" content="{{ page.meta-description }}">
+  {% elsif page.subtitle %}
+  <meta property="og:description" content="{{ page.subtitle }}">
+  {% else %}
+  <meta property="og:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
+  {% endif %}
+
+
+  <meta property="og:type" content="website" />
+
+  {% if page.id %}
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+  {% else %}
+  <meta property="og:url" content="{{ page.url | absolute_url | strip_index }}" />
+  <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}" />
+  {% endif %}
+
+  {% if page.share-img %}
+  <meta property="og:image" content="{{ page.share-img }}" />
+  {% elsif site.avatar %}
+  <meta property="og:image" content="{{ site.avatar | absolute_url }}" />
+  {% endif %}
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@{{ site.author.twitter }}" />
+  <meta name="twitter:creator" content="@{{ site.author.twitter }}" />
+
+  {% if page.meta-title %}
+  <meta name="twitter:title" content="{{ page.meta-title }}" />
+  {% elsif page.title %}
+  <meta name="twitter:title" content="{{ page.title }}" />
+  {% else %}
+  <meta name="twitter:title" content="{{ site.title }}" />
+  {% endif %}
+
+  {% if page.meta-description %}
+  <meta name="twitter:description" content="{{ page.meta-description }}">
+  {% elsif page.subtitle %}
+  <meta name="twitter:description" content="{{ page.subtitle }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
+  {% endif %}
+
+  {% if page.share-img %}
+  <meta name="twitter:image" content="{{ page.share-img }}" />
+  {% elsif site.avatar %}
+  <meta name="twitter:image" content="{{ site.avatar | absolute_url }}" />
+  {% endif %}
+
+  {% if site.matomo %}
+  {% include matomo.html %}
+  {% endif %}
+
+  {% if page.comments and site.staticman.repository and site.staticman.branch %}
+  <!-- Staticman -->
+  <link rel="stylesheet" href="{{ "/css/staticman.css" | relative_url }}" />
+  {% endif %}
 
 </head>
