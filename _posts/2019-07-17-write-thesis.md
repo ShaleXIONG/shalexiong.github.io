@@ -2,10 +2,10 @@
 layout: post
 title: Writing thesis
 subtitle: Writing thesis is hard
-tags: [thesis]
+tags: [random]
 ---
 
-When I am back from an internship with [arm][1] at the beginning of July 2019,
+When I am back from an internship with [Arm][1] at the beginning of July 2019,
 I am in thesis mode now.
 The internship was very cool and productive, so hopefully I have the chance to go back.
 
