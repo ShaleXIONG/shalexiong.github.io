@@ -4,11 +4,12 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-I am a PhD student at [Dept. of Computing](https://www.imperial.ac.uk/computing), [Imperial College](https://www.imperial.ac.uk) since Oct. 2015, in the [Program Specification and Verification Group](https://psvg.doc.ic.ac.uk) supervised by [Prof. Philippa Gardner](https://www.doc.ic.ac.uk/~pg/). 
-Currently, I am interesting in verification of concurrent programs and consistency models of distributed systems and databases.
+I am a research engineering at [Arm Reserach][18].
 
-I received MSc. in Advanced Computing from [Imperial College London](https://www.imperial.ac.uk) in 2015, and BEng. in Software Engineering from [Southwest Jiaotong University](http://english.swjtu.edu.cn) ([西南交通大学](http://www.swjtu.edu.cn)), China in 2014.
-[HERE IS MY CV.]({{ site.baseurl }}/cv.pdf)
+I studied at [Dept. of Computing][21], [Imperial College][22] from 2015 to 2019, in the [Verified Trustworthy Software Specification][23] supervised by [Prof. Philippa Gardner][24]. 
+Currently, I am interesting in verification of concurrent programs and consistency models of distributed systems and databases.
+I received MSc. in Advanced Computing from [Imperial College London][22] in 2015, and BEng. in Software Engineering from [Southwest Jiaotong University][25] ([西南交通大学][20]), China in 2014.
+[HERE IS MY CV.][19]
 
 ## Contact ##
 
@@ -66,6 +67,11 @@ but I still watch matches:
 * [Starcraft 2][13]
 * [Dota 2][14]
 
+
+### Go Chess ###
+I used to learn [Go Chess][2] go from age 10-ish to 15-ish.
+I occationally played for fun.
+
 ### Cooking ###
 
 I usually cook my own dinner.
@@ -95,3 +101,11 @@ but never have the time (it is an excuse) and space (kitchen is a bit small).
 [15]:https://en.wikipedia.org/wiki/Baozi
 [16]:http://www.frostpunkgame.com
 [17]:http://masseffect.bioware.com/
+[18]:https://www.arm.com/resources/research
+[19]:{{ site.baseurl }}/cv.pdf
+[20]:http://www.swjtu.edu.cn
+[21]:https://www.imperial.ac.uk/computing
+[22]:https://www.imperial.ac.uk
+[23]:http://vtss.doc.ic.ac.uk/
+[24]:https://www.doc.ic.ac.uk/~pg/
+[25]:http://english.swjtu.edu.cn
