@@ -4,7 +4,7 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-I am a research engineering at [Arm Reserach][18].
+I am a research engineering at [Arm Research][18].
 
 I studied at [Dept. of Computing][21], [Imperial College][22] from 2015 to 2019, in the [Verified Trustworthy Software Specification][23] supervised by [Prof. Philippa Gardner][24]. 
 Currently, I am interesting in verification of concurrent programs and consistency models of distributed systems and databases.
