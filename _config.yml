@@ -33,6 +33,7 @@ navbar-links:
   Blog Tags: "/tags/"
   Publication: "/publications/"
   Useful Links:
+    - Arm Research: "https://www.arm.com/resources/research"
     - Imperial College: "http://www.imperial.ac.uk/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
