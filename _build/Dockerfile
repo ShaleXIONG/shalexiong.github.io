@@ -7,7 +7,7 @@ COPY . /workspace
 RUN chown -R jekyll /workspace
 
 # run build
-RUN jekyll build
+RUN bundle exec jekyll build
 
 FROM gcr.io/cloud-builders/gsutil
 
