@@ -13,15 +13,14 @@ I received MSc. in Advanced Computing from [Imperial College London][22] in 2015
 
 ## Contact ##
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16458.872650809793!2d0.16960240582994263!3d52.177491971298316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d87aab5eecea7d%3A0x3223a88453db460c!2sArm%20Ltd!5e0!3m2!1sen!2suk!4v1590186316987!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16458.872650809793!2d0.16960240582994263!3d52.177491971298316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d87aab5eecea7d%3A0x3223a88453db460c!2sArm%20Ltd!5e0!3m2!1sen!2suk!4v1590186316987!5m2!1sen!2suk" width="350" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" style="float:right;border:0">Arm Address, Google map</iframe>
 
 ### Email: ###
 shale.xiong \[AT\] arm.com
 
 ### Address: ###
-110 Fulbourn Rd, 
-Cambridge CB1 9NJ,
-UK
+110 Fulbourn Rd,  <br/>
+Cambridge CB1 9NJ, UK
 
 ## My Hobbies ## 
 
@@ -43,7 +42,7 @@ To win, a player's 13 tiles plus an extra one need to form certain pattern.
 The extra one can be the immediate new tile the player draws before s/he dicards any tile;
 or it can be tiles other players discards in his/her turn.
 
-I often play mahjong in [FF14][26], an MMRPG game that is similar to WoW, and you can play mahjong with others in the game :).
+I often play mahjong in [FF14][26], a MMRPG game that is similar to WoW, and you can play mahjong with others in the game :).
 
 ### Gaming, on PC ###
 

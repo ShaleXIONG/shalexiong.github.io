@@ -3,7 +3,7 @@
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll/scholar
+  #- jekyll/scholar
 
 
 # Name of website
@@ -31,9 +31,9 @@ icon: "/img/shale-xiong.jpg"
 navbar-links:
   About Me: "aboutme"
   Blog Tags: "/tags/"
-  Publication: "/publications/"
+  #Publication: "/publications/"
   Useful Links:
-    - Arm Research: "https://www.arm.com/resources/research"
+    - Arm Research: "https://www.arm.com/resources/research/"
     - Imperial College: "http://www.imperial.ac.uk/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -106,24 +106,24 @@ share-links-active:
 url-pretty: "www.shalexiong.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # publication
-scholar:
-  style: apa
-  source: publications
-  bibliography: ref.bib
-  bibliography_template: publication-entry
-  details_link: ''
-  details_dir: publications
-  details_layout: publication.html
-  use_raw_bibtex_entry: true
-  bibtex_skip_fields: ['note']
-  bibtex_filters:
-    - superscript
-    - latex
-  sort_by: year, month
-  order: descending
-  group_order: descending
-  bibliography_group_tag: 'h3,h4,h5,h6'
-  repository: publications
+#scholar:
+  #style: apa
+  #source: publications
+  #bibliography: ref.bib
+  #bibliography_template: publication-entry
+  #details_link: ''
+  #details_dir: publications
+  #details_layout: publication.html
+  #use_raw_bibtex_entry: true
+  #bibtex_skip_fields: ['note']
+  #bibtex_filters:
+    #- superscript
+    #- latex
+  #sort_by: year, month
+  #order: descending
+  #group_order: descending
+  #bibliography_group_tag: 'h3,h4,h5,h6'
+  #repository: publications
 
 # --- Web Statistics Section --- #
 
