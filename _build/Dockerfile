@@ -7,7 +7,7 @@ COPY . /workspace
 RUN chown -R jekyll /workspace
 
 
-RUN bundle install
+RUN sudo bundle install
 # run build
 RUN bundle exec jekyll build
 
