@@ -1,14 +1,27 @@
-FROM jekyll/jekyll as website
+#FROM jekyll/jekyll as website
 
-#set up 
+##set up 
+#WORKDIR /workspace
+#COPY . /workspace
+
+#RUN chown -R jekyll /workspace
+
+
+#RUN sudo bundle install
+## run build
+#RUN bundle exec jekyll build
+
+#FROM gcr.io/cloud-builders/gsutil
+
+FROM ruby:2 AS website
+
+RUN gem install bundler
+
 WORKDIR /workspace
+
 COPY . /workspace
-
-RUN chown -R jekyll /workspace
-
-
-RUN sudo bundle install
-# run build
+ENV JEKYLL_ENV=production
+RUN bundle install
 RUN bundle exec jekyll build
 
 FROM gcr.io/cloud-builders/gsutil
