@@ -30,7 +30,7 @@ icon: "/img/shale-xiong.jpg"
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Blog Tags: "/tags/"
+  Blog Tags: "tags"
   #Publication: "/publications/"
   Useful Links:
     - Arm Research: "https://www.arm.com/resources/research/"
