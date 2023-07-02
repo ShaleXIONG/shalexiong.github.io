@@ -17,7 +17,7 @@ A small spoon of ice-cream added a bit milky and creamy flavour, and then the to
 It was probably the most well-thought dish in the set, since the plate is likely to be a special chosen one, too.
 <img src="{{ 'img/MJP-Shepherds-pea.jpg' | relative_url }}" />
 After this we also got a salad kind of dish, which also follows the sense of vegetable and green.
-This time was paired with sunburn tomatoes and a small potato.
+This time was paired with sun dried tomatoes and a small potato.
 It is true that the chef can cut the most tender part of the stems, though I found myself not mind much.
 Of course, if he spends more time on polishing every dish to absolutely perfect, the price tag will not be under £100.
 <img src="{{ 'img/MJP-Shepherds-salad.jpg' | relative_url }}" />
