@@ -34,6 +34,15 @@ I grew up in [Changsha, Hunan][29] and spent another 4 years as undergraduate in
 so I am familiar to spicy and chilli food.
 
 I spent a portion of my leisure and travelling on trying restaurants, in particular, those often being referred as fine-dining restaurants. 
+I try to write up for fun and post here for all those restaurants I visited in the past.
+Of course, it is not my main work and I am not a professional.
+
+### Stage Show and Theatre
+
+I enjoy going to theatre, mostly for musical and ballet. 
+I also attended circus show and, mordern dance etc before.
+I usually go to London for theatre since I live in Cambridge, only less an hour train from London.
+In general, I like a good story and admire the skills of the performancers. 
 
 ### Gaming, on PC ###
 
@@ -52,8 +61,9 @@ Some games I like:
 * [The Witcher 3: Wild Hunt][12]
 * [FF14][26]
 * [Pillars of Eternity 1 and 2][27]
+* [Age of Wonders 4][31]
 
-I am still playing [World of Warcraft][28] regularly, in both raid and mythic+.
+I am still playing [World of Warcraft][28] regularly, in both raid and mythic+ with some friends online.
 
 There are few games I am no long play 
 but I still watch matches:
@@ -109,3 +119,4 @@ or it can be tiles other players discards in his/her turn.
 [28]:https://worldofwarcraft.blizzard.com/
 [29]:https://en.wikipedia.org/wiki/Changsha
 [30]:https://en.wikipedia.org/wiki/Chengdu
+[31]:https://www.paradoxinteractive.com/games/age-of-wonders-4/about
