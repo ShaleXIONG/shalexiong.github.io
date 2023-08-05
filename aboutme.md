@@ -42,7 +42,15 @@ Of course, it is not my main work and I am not a professional.
 I enjoy going to theatre, mostly for musical and ballet. 
 I also attended circus show and, mordern dance etc before.
 I usually go to London for theatre since I live in Cambridge, only less an hour train from London.
-In general, I like a good story and admire the skills of the performancers. 
+In general, I like a good story and admire the skills of the performancers.
+
+* [The Phantom Of The Opera][32]
+* [Jean Paul Gaultier Fashion Freak Show][33]
+* [Les Misérables][34]
+* [Best of Enemies][35]
+* [Cirque du Soleil Kurios][36]
+* [Hamilton][37]
+* [Brokeback Mountain][38]
 
 ### Gaming, on PC ###
 
@@ -120,3 +128,10 @@ or it can be tiles other players discards in his/her turn.
 [29]:https://en.wikipedia.org/wiki/Changsha
 [30]:https://en.wikipedia.org/wiki/Chengdu
 [31]:https://www.paradoxinteractive.com/games/age-of-wonders-4/about
+[32]:https://uk.thephantomoftheopera.com/
+[33]:https://www.jpgfashionfreakshow.com/
+[34]:https://london.lesmis.com/
+[35]:https://bestofenemiesplay.com/
+[36]:https://www.cirquedusoleil.com/kurios
+[37]:https://hamiltonmusical.com/london/
+[38]:https://sohoplace.org/whats-on/brokeback-mountain
