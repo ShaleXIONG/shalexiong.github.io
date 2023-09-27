@@ -37,14 +37,14 @@ I did like the presentation, red for the lobster and green for the sauce and sid
 The side followed the similar pattern of the small bites, something jelly, something crunchy and then something in light and fresh taste.
 <img src="{{ 'img/Sur-Mesure-Thierry-Marx-lobster.jpg' | relative_url }}" />
 Then, here we had the quail.
-I have very similar question as the frog, how they make shape and how they make it so dry?
+I have very similar questions as the frog, how they make shape and how they make it so dry?
 Also one of the side (the yellow part in the picture) just slipped into the centre of the plate while they were presenting the dish.
-I had to say, I disliked it, even for the sides, which are all towards the dry end.
+I had to say, I disliked it, even for the sides, which were all towards the dry end.
 <img src="{{ 'img/Sur-Mesure-Thierry-Marx-quail.jpg' | relative_url }}" />
 
-This restaurant is a bit out of my taste.
+This restaurant was a bit out of my taste.
 Maybe I had too high expectation since I was in Paris, one of, if not "the", capital of food.
-I may also blame my personal feel as I simply dislike seasoning styling of the chef.
+I might also blame my personal feel as I simply dislike the seasoning style of the chef.
 One thing I want to mention is the excellent service.
 All the waiters and waitresses will wait in front you, but facing away from you, until they spot a "gap" in your own activities, relying on the reflection in the glass, to present you the dish.
 It is interestingly subtle.
