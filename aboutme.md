@@ -57,6 +57,7 @@ In general, I like a good story and admire the skills of the performancers.
 * [Matthew Bourne's Romeo and Juliet][41]
 * [Don Quixote][42]
 * [Jersey Boys][43]
+* [Lion King][44]
 
 ### Gaming, on PC ###
 
@@ -146,3 +147,4 @@ or it can be tiles other players discards in his/her turn.
 [41]:https://new-adventures.net/romeo-juliet#overview
 [42]:https://www.roh.org.uk/tickets-and-events/don-quixote-by-carlos-acosta-details
 [43]:https://jerseyboysmusical.co.uk
+[44]:https://www.thelionking.co.uk/
