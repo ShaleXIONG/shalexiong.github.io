@@ -4,6 +4,7 @@ title: Midsummer House, Cambridge
 subtitle: 
 tags: [restaurant]
 ---
+
 Well, well, and well, I live in Cambridge myself, so I feel the need to support local business.
 However, sadly, I did not like the set I got.
 

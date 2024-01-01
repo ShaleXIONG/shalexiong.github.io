@@ -57,5 +57,5 @@ In fact, he apologised to me afterwards and said that he did not realise it is a
 I really appreciated it.
 We went to a dinner and show in Moulin Rouge in the next day!
 He became the absolute highlight of my visit to Paris and I enjoyed every moment with him.
-In fact, we continue to see each other in London since.
+[Update after first write] In fact, we continue to see each other in London since.
 That is why I said at the beginning of this post, it was absolutely a great day in my life, though probably not from the restaurant.
