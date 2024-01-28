@@ -41,8 +41,8 @@ Of course, it is not my main work and I am not a professional.
 
 ### Stage Show and Theatre
 
-I enjoy going to theatre, mostly for musical and ballet. 
-I also attended circus show and, mordern dance etc before.
+I enjoy going to the theatre, mostly for musical, play and ballet. 
+I also like circus show and mordern dance etc.
 I usually go to London for theatre since I live in Cambridge, only less an hour train from London.
 In general, I like a good story and admire the skills of the performancers.
 
@@ -57,6 +57,7 @@ In general, I like a good story and admire the skills of the performancers.
 * [Don Quixote][42]
 * [Jersey Boys][43]
 * [Lion King][44]
+* [A Mirror][45]
 
 ### Gaming, on PC ###
 
@@ -146,3 +147,4 @@ or it can be tiles other players discards in his/her turn.
 [42]:https://www.roh.org.uk/tickets-and-events/don-quixote-by-carlos-acosta-details
 [43]:https://jerseyboysmusical.co.uk
 [44]:https://www.thelionking.co.uk/
+[45]:https://almeida.co.uk/whats-on/a-mirror-west-end/
