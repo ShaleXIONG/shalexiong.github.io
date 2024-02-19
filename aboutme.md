@@ -58,6 +58,7 @@ In general, I like a good story and admire the skills of the performancers.
 * [Jersey Boys][43]
 * [Lion King][44]
 * [A Mirror][45]
+* [Cirque du Soleil Alegria][46]
 
 ### Gaming, on PC ###
 
@@ -148,3 +149,4 @@ or it can be tiles other players discards in his/her turn.
 [43]:https://jerseyboysmusical.co.uk
 [44]:https://www.thelionking.co.uk/
 [45]:https://almeida.co.uk/whats-on/a-mirror-west-end/
+[46]:https://www.cirquedusoleil.com/alegria
