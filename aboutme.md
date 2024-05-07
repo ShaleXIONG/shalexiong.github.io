@@ -62,6 +62,7 @@ In general, I like a good story and admire the skills of the performancers.
 * [New Works][47]
 * [The Flying Dutchman][48]
 * [Wicked][49]
+* [Player Kings][50]
 
 ### Gaming, on PC ###
 
@@ -156,3 +157,4 @@ or it can be tiles other players discards in his/her turn.
 [47]:https://www.roh.org.uk/tickets-and-events/new-works-festival-of-new-choreography-details#about
 [48]:https://www.roh.org.uk/tickets-and-events/the-flying-dutchman-by-tim-albery-dates
 [49]:https://www.wickedthemusical.co.uk
+[50]:https://playerkingstheplay.co.uk
