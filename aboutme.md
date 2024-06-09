@@ -63,6 +63,7 @@ In general, I like a good story and admire the skills of the performancers.
 * [The Flying Dutchman][48]
 * [Wicked][49]
 * [Player Kings][50]
+* [Spirited Away][51]
 
 ### Gaming, on PC ###
 
@@ -158,3 +159,4 @@ or it can be tiles other players discards in his/her turn.
 [48]:https://www.roh.org.uk/tickets-and-events/the-flying-dutchman-by-tim-albery-dates
 [49]:https://www.wickedthemusical.co.uk
 [50]:https://playerkingstheplay.co.uk
+[51]:https://londoncoliseum.org/whats-on/spirited-away/
