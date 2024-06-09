@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Acquolina, Rome
+title: Acquolina, Roma
 subtitle: 
 tags: [restaurant]
 ---
