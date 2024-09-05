@@ -65,6 +65,7 @@ In general, I like a good story and admire the skills of the performancers.
 * [Player Kings][50]
 * [Spirited Away][51]
 * [Withness for the Prosecution][52]
+* [Harry Potter and the Cursed Child][53]
 
 ### Gaming, on PC ###
 
@@ -162,3 +163,4 @@ or it can be tiles other players discards in his/her turn.
 [50]:https://playerkingstheplay.co.uk
 [51]:https://londoncoliseum.org/whats-on/spirited-away/
 [52]:https://witnesscountyhall.com/
+[53]:https://www.harrypottertheplay.com
