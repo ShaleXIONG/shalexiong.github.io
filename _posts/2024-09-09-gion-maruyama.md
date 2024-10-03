@@ -40,7 +40,7 @@ The flavour followed the entire light-and-clear style of this restaurant.
 Yet I was not sure about the floating things in the soup, which I think is the egg from the lobster?
 <img src="{{ 'img/Gion-Maruyama-lobster-2.jpg' | relative_url }}" />
 The second main dish was shabu.
-Compared with [Roan Kikunoi]({{ '_post/2024-09-07-roan-kikunoi.md' | relative_url }}), I prefer shabu here, which are presented in a tidy way, with a few slides of abalone and vegetables.
+Compared with [Roan Kikunoi]({{ '2024-09-08-kyoto-saeki/' | relative_url }}), I prefer shabu here, which are presented in a tidy way, with a few slides of abalone and vegetables.
 Similar to many previous soup dishes, the chef put stronger citron flavour that really stand out from umami flavour.
 Although it sounds strange, the liver vinegar sauce was actually very smooth and slightly thick; I enjoyed.
 <img src="{{ 'img/Gion-Maruyama-shabu.jpg' | relative_url }}" />
