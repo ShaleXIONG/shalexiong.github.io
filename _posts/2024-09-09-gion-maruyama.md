@@ -47,6 +47,6 @@ Although it sounds strange, the liver vinegar sauce was actually very smooth and
 
 I would not recommend the rest of the menu as they all precisely what I expected: (1) well-presented, (2) light seasoning, (3) umami and citron flavour, and (4) humble feeling.
 However, the downside is also what I just described: it was precisely one will think of keisaki.
-This brings us to the final question for the restaurant: should the provide something more fun or characters so to compete in this fierce fine dinning business.
+This brings us to the final question for the restaurant: should they provide something more fun or characters so to compete in this fierce fine dinning business.
 I should voice out that they have an excellent customer service.
 When I left the restaurant, the chef and waitress came out and bowed to me until I was out of their view; there is a short walk until I reach a corner of the street.
