@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Taian Table, Shanghai
+title: Taian Table (泰安门), Shanghai
 subtitle: 
 tags: [restaurant]
 ---
