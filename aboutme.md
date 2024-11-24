@@ -67,6 +67,7 @@ In general, I like a good story and admire the skills of the performancers.
 * [Withness for the Prosecution][52]
 * [Harry Potter and the Cursed Child][53]
 * [The Lehman Trilogy][54]
+* [Tina (Turner)][55]
 
 ### Gaming, on PC ###
 
@@ -166,3 +167,4 @@ or it can be tiles other players discards in his/her turn.
 [52]:https://witnesscountyhall.com/
 [53]:https://www.harrypottertheplay.com
 [54]:https://thelehmantrilogy.com
+[55]:https://tinathemusical.com/
