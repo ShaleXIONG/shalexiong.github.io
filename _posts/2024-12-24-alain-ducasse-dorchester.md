@@ -24,6 +24,7 @@ Let move to the "sea bass".
 It was perfectly cooked and seasoning.
 The chef actually fried the sea bass to a slightly golden colour for a nice appearance and flavour, but maintained juice.
 The paired watercress and cauliflower balanced the fat from the fish very well.
+I was surprised on the use of cauliflower, because it has way too strong flavour when in raw and no texiture when fully cooked; it needs a great control to find the sweat spot.
 <img src="{{ 'img/Alain-Ducasse-Dorchester-sea-bass.jpg' | relative_url }}" />
 The main dish for the night was "Guinea fowl", a very traditional choice.
 It was another dish I enjoyed.
@@ -35,5 +36,6 @@ The sauce, which were made from grape condiment, was in a very nice thickness, s
 
 It was a great evening.
 I liked it, daddy liked it, and eventually some restaurants in London meeting my expectation (given the price).
+The chef used expensive ingredients but for the purpose of completing a dish rather than showing off the price tag, and the chef cooked the most available ingredients to a perfect conditions, also for the sack of completing a dish; this is what I expected, epspecially, from a Michelin 3-star place.
 Apart from the nice dinner, we are facing a table of six persons, probably three couples, some of who are in short and jeans.
 They were certainly a source of our entertaining for the night: daddy and I criticised fiercely on their dressing and constantly going out for cigarette.
