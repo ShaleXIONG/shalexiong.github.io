@@ -16,8 +16,9 @@ The menu was very Christmas for sure.
 
 The first dish "langoustine" was very impressive.
 The base soup was surprisingly in a cold temperature, which was a very good start as it completely woke me up.
-The langoustine were cooked through, i.e., not raw, but still juicy, and the top
+The langoustine were cooked through, i.e., not raw, but still juicy.
 Other seasoning were inspired by Japanese, wakame seaweed and citrus.
+In fact, the entire dish were tasted very Japanese, umani and oceanic.
 The drizzle of caviar added some salty and fresh flavours.
 <img src="{{ 'img/Alain-Ducasse-Dorchester-langoustine.jpg' | relative_url }}" />
 Let move to the "sea bass".
