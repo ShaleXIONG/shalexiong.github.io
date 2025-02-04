@@ -74,6 +74,7 @@ In general, I like a good story and admire the skills of the performances.
 * [The Lehman Trilogy][54]
 * [Tina (Turner)][55]
 * [Matthew Bourne’s Swan Lake][58]
+* [Oliver!][59]
 
 ### Gaming, on PC ###
 
@@ -177,3 +178,4 @@ or it can be tiles other players discards in his/her turn.
 [56]:https://github.com/herd/herdtools7
 [57]:https://github.com/herd/herdtools7/tree/master/catalogue
 [58]:https://www.new-adventures.net/swan-lake#overview
+[59]:https://oliverthemusical.com
