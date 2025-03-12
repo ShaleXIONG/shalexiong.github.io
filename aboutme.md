@@ -84,7 +84,7 @@ Some games I like:
 
 * [World of Warcraft][28]
 * [Stellaris][5]
-* [Civilization V and VI][6]
+* [Civilization V, VI and VII][6]
 * [Frostpunk][16]
 * [Tropico 4, 5 and 6][7]
 * [Two Point Hospital][8]
