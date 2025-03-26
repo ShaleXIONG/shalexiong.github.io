@@ -76,6 +76,7 @@ In general, I like a good story and admire the skills of the performances.
 * [Matthew Bourne’s Swan Lake][58]
 * [Oliver!][59]
 * [Richard II by Jonathan Bailey][60]
+* [Seagull][61]
 
 ### Gaming, on PC ###
 
@@ -181,3 +182,4 @@ or it can be tiles other players discards in his/her turn.
 [58]:https://www.new-adventures.net/swan-lake#overview
 [59]:https://oliverthemusical.com
 [60]:https://bridgetheatre.co.uk/whats-on/richard-ii/
+[61]:https://theseagullplay.co.uk
